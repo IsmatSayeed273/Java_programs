@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class breakStatement {
     public static void main(String[] args) {
-        System.out.println("enter the no n ");
+        System.out.println("enter the number n : ");
         Scanner in=new Scanner(System.in);
         int n=in.nextInt();
         for(int i=0; i<n; i++){
