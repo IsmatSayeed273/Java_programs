@@ -4,9 +4,10 @@ import java.util.Scanner;
 
 public class greeting {
     public static void main(String[] args) {
-        System.out.println("enter your name: ");
+        System.out.println("Enter Your Name: ");
         Scanner name=new Scanner(System.in);
         String Name=name.next();
-        System.out.println("Good Morning dear "+Name);
+        System.out.println("Good Night "+Name);
+        System.out.println("Thank you: ");
     }
 }
